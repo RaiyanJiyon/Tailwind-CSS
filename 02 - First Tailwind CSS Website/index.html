@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Open Sans"', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-blue-100">
+    <header>
+        <nav class="flex justify-around items-center pt-2
+        ">
+            <span class="font-bold text-2xl">Shades</span>
+            <ul class="flex space-x-10">
+                <li class="cursor-pointer hover:bg-white">Free Landing Page</li>
+                <li class="cursor-pointer hover:bg-white">Features</li>
+                <li class="cursor-pointer hover:bg-white">Services</li>
+                <li class="cursor-pointer hover:bg-white">Pricing</li>
+                <li class="cursor-pointer hover:bg-white">Contact</li>
+            </ul>
+            <span class="cursor-pointer text-blue-500 border border-blue-500 rounded px-4 p-2 hover:bg-white">Get Started</span>
+        </nav>
+
+        <div class="banner mt-24 w-1/2 mx-auto">
+            <div class="banner__content">
+                <h4 class="uppercase text-center">Present Your Service</h4>
+                <h1 class="text-4xl text-center mt-5 ">Make landing page fast and easily</h1>
+                <p class="text-center mt-5">Create custom landing pages with Shades that convert more visitors than any website—no coding required.</p>
+                <form class="mt-5 flex justify-center space-x-2">
+                    <input class="p-2" type="text" placeholder="Enter Your Email">
+                    <input class="p-2 bg-red-500 text-white font-bold w-40 cursor-pointer rounded" type="button" value="Subscribe">
+                </form>
+                <p class="text-xs text-center mt-4">Trusted by over customers</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="website__information mt-20 flex justify-between border w-full mx-auto p-6 space-x-8">
+            <div class="website__information--1 text-center">
+                <h3 class="font-bold text-lg mb-2">Easy to Use</h3>
+                <p class="text-gray-600">Editing and customizing Essential Landing is easy and fast</p>
+            </div>
+            <div class="website__information--2 text-center">
+                <h3 class="font-bold text-lg mb-2">100% Responsive</h3>
+                <p class="text-gray-600">Editing and customizing Essential Landing is easy and fast</p>
+            </div>
+            <div class="website__information--3 text-center">
+                <h3 class="font-bold text-lg mb-2">50+ New Pages</h3>
+                <p class="text-gray-600">Editing and customizing Essential Landing is easy and fast</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
