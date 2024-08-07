@@ -3,29 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Home Page</title>
+    <title>Log in to Facebook</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/Image/favicon.png">
 </head>
-<body class="bg-gray-200">
-    <header></header>
-    <main class="w-[80%] m-auto mt-36 border border-red-300 flex">
-        <div class="border border-green-500">
-            <h1 class="font-verdana text-5xl text-blue-500 font-bold">facebook</h1>
-            <p class="text-xl mt-2">Connect with friends and the world around you on Facebook.</p>
-        </div>
-        <div class="border border-blue-400">
-            <form class="flex flex-col">
-                <input type="text" placeholder="Email or phone number">
-                <input type="password" placeholder="Password">
-                <input type="button" value="Login">
-            </form>
-            <a href="#">Forget password?</a>
-            <hr>
-
-            <button>Create new account</button>
-        </div>
+<body class="bg-gray-100">
+    <main class="flex flex-col items-center justify-center my-10 shadow-slate-600">
+        <img class="w-60" src="Image/facebook.svg" alt="">
+        <form class="bg-white flex flex-col w-96 p-6 rounded-md">
+            <p class="text-xl text-center mb-3">Log in to Facebook</p>
+            <input class="border border-1 border-gray-300 p-3 my-2 rounded-md placeholder:text-lg outline-gray-100" type="text" placeholder="Email address or phone number">
+            <input class="border border-1 border-gray-300 p-3 my-2 rounded-md placeholder:text-lg outline-gray-100" type="password" placeholder="Password">
+            <button class="bg-blue-500 text-white text-xl font-bold p-3 my-2 cursor-pointer rounded-md">Log in</button>
+            <div class="mx-auto space-x-2">
+                <span class="text-sm text-blue-600 hover:underline cursor-pointer">Forgotten account?</span>
+                <span class="text-sm text-blue-600 hover:underline cursor-pointer">Sign up for Facebook</span>
+            </div>      
+        </form>
     </main>
-
-    <footer></footer>
 </body>
 </html>
